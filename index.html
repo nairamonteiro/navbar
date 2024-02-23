@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação Mobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">MONA</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#menu" onclick="select()">INÍCIO</a></li>
+                    <li><a href="#about" onclick="select()">SOBRE MIM</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+                    <li><a href="#contacts" onclick="select()">CONTATOS</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <script src="https://kit.fontawesome.com/0d6b37e535.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
